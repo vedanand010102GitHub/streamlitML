@@ -11,11 +11,11 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/vedan/OneDrive/Desktop/multiple diseses prediction/saved models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('C:/Users/vedan/OneDrive/Desktop/multiple diseases prediction/diabetes_model.sav', 'rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/vedan/OneDrive/Desktop/multiple diseses prediction/saved models/heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('C:/Users/vedan/OneDrive/Desktop/multiple diseases prediction/heart_disease_model.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/vedan/OneDrive/Desktop/multiple diseses prediction/saved models/parkinsons_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('C:/Users/vedan/OneDrive/Desktop/multiple diseases prediction/parkinsons_model.sav', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
